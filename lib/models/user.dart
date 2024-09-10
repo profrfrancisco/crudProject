@@ -1,11 +1,9 @@
-import 'package:flutter/cupertino.dart';
-
 /*
   Uma variável ou atributo final pode ser inicializada em algum momento após a sua declaração,
   porém uma vez atribuído um valor, este não poderá mais ser alterado
 */
 
-class User{
+class User {
   final String? id;
   final String? name;
   final String? email;
@@ -19,8 +17,8 @@ class User{
   //Construtor do tipo constante pois todas variávies são do tipo final
   const User({
     this.id,
-    @required this.name,
-    @required this.email,
-    @required this.avatarUrl,
+    this.name,
+    this.email,
+    this.avatarUrl,
   });
 }
