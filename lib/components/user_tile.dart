@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class UserTile extends StatelessWidget {
   final User user;
 
-  UserTile(this.user, {super.key});
+  const UserTile(this.user, {super.key});
 
   @override
   Widget build(BuildContext context) {
