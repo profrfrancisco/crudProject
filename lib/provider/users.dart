@@ -20,9 +20,9 @@ class Users with ChangeNotifier {
   }
 
   void put(User user) {
-    if (user.id == null) {
-      return;
-    }
+    // if (user.id == null) {
+    //   return;
+    // }
 
     if (user.id != null &&
         user.id!.trim().isNotEmpty &&
